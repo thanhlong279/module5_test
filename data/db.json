@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productCode": "PROD-0001",
+      "name": "Omega",
+      "categoryId": 1,
+      "price": 598000,
+      "quantity": 1000,
+      "dateAdded": "2024-08-28"
+    },
+    {
+      "id": 2,
+      "productCode": "PROD-0002",
+      "name": "Máy đo huyết áp",
+      "categoryId": 2,
+      "price": 13500000,
+      "quantity": 500,
+      "dateAdded": "2024-08-25"
+    },
+    {
+      "id": 3,
+      "productCode": "PROD-0003",
+      "name": "Efferalgan",
+      "categoryId": 3,
+      "price": 30000,
+      "quantity": 65,
+      "dateAdded": "2024-08-25"
+    },
+    {
+      "id": 4,
+      "productCode": "PROD-0011",
+      "name": "Thuoc Lac",
+      "categoryId": "",
+      "price": 100000,
+      "quantity": 12,
+      "dateAdded": "2024-08-15",
+      "brandId": "Thực phẩm chức năng"
+    },
+    {
+      "id": 5,
+      "productCode": "PROD-0011",
+      "name": "Thuoc Lac1111111",
+      "categoryId": "",
+      "price": 1223465,
+      "quantity": 3,
+      "dateAdded": "2024-08-09",
+      "brandId": "Thực phẩm chức năng"
+    },
+    {
+      "id": 6,
+      "productCode": "PROD-0011",
+      "name": "Thuoc Lac1111111",
+      "categoryId": "",
+      "price": 123123,
+      "quantity": 2,
+      "dateAdded": "2024-08-08",
+      "brandId": "Thực phẩm chức năng"
+    },
+    {
+      "id": 7,
+      "productCode": "PROD-0011",
+      "name": "Thuoc La",
+      "categoryId": "",
+      "price": 123131231,
+      "quantity": 12,
+      "dateAdded": "2024-08-02",
+      "brandId": "2"
+    },
+    {
+      "id": 8,
+      "productCode": "PROD-0011",
+      "name": "Thuoc La",
+      "categoryId": "Thực phẩm chức năng",
+      "price": 12312312,
+      "quantity": 1212,
+      "dateAdded": "2024-08-17"
+    },
+    {
+      "id": 9,
+      "productCode": "PROD-0011",
+      "name": "Thuoc La",
+      "categoryId": "Thực phẩm chức năng",
+      "price": 11111111,
+      "quantity": 12112121,
+      "dateAdded": "2024-08-09"
+    },
+    {
+      "id": 10,
+      "productCode": "PROD-0011",
+      "name": "Thanh Longưerwerwer32424",
+      "categoryId": "Thực phẩm chức năng",
+      "price": 23213,
+      "quantity": 4,
+      "dateAdded": "2024-08-16"
+    }
+  ],
+  "categories": [
+    {
+      "idCategory": 1,
+      "name": "Thực phẩm chức năng"
+    },
+    {
+      "idCategory": 2,
+      "name": "Thiết bị y tế"
+    },
+    {
+      "idCategory": 3,
+      "name": "Dược phẩm"
+    }
+  ]
+}
