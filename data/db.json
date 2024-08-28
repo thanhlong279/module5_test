@@ -93,19 +93,28 @@
       "price": 23213,
       "quantity": 4,
       "dateAdded": "2024-08-16"
+    },
+    {
+      "id": 11,
+      "productCode": "PROD-0011",
+      "name": "Thanh",
+      "categoryId": "1",
+      "price": 111111,
+      "quantity": 2,
+      "dateAdded": "2024-08-02"
     }
   ],
   "categories": [
     {
-      "idCategory": 1,
+      "categoryId": 1,
       "name": "Thực phẩm chức năng"
     },
     {
-      "idCategory": 2,
+      "categoryId": 2,
       "name": "Thiết bị y tế"
     },
     {
-      "idCategory": 3,
+      "categoryId": 3,
       "name": "Dược phẩm"
     }
   ]

@@ -19,10 +19,10 @@ function ProductList() {
         let productRes = await ProductService.getAllProducts(name, categoryId);
         let categoryRes = await ProductService.getAllGenres();
 
-        productRes.sort((a, b) => a.quantity - b.quantity);
+        productRes.sort((a, b) => a.name.localeCompare(b.name));
 
         const combinedData = productRes.map(product => {
-            const category = categoryRes.find(p => p.idCategory === product.categoryId);
+            const category = categoryRes.find(p => p.categoryId === product.categoryId);
             return {
                 ...product, categoryName: category ? category.name : 'Không xác định'
             };
